@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: myAzure
 
 variables:
   buildConfiguration: 'Release'
